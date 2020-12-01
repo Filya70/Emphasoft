@@ -1,6 +1,5 @@
 {
   "name": "emphasoft",
-  "proxy": "http://emphasoft-test-assignment.herokuapp.com",
   "engines": {
     "node": "15.x"
   },

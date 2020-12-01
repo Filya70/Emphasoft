@@ -21,7 +21,7 @@ const Login = () => {
       setErrPass('Некорректный пароль');
     } else {
       axios
-        .post('http://emphasoft-test-assignment.herokuapp.com/api-token-auth/', {
+        .post('https://emphasoft-test-assignment.herokuapp.com/api-token-auth/', {
           username: login,
           password: pass,
         })

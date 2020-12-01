@@ -17,7 +17,7 @@ const useAuth = () => {
         'X-CSRFToken': 'tcTPQJvtb7kAIpqmTZL9hyY22lRkGBU1iysaV3dhi34yidEXmgUujy73NnIlLWJI',
       };
       axios
-        .get('http://emphasoft-test-assignment.herokuapp.com/api/v1/users/', {
+        .get('https://emphasoft-test-assignment.herokuapp.com/api/v1/users/', {
           headers,
         })
         .then(({ data }) => {
